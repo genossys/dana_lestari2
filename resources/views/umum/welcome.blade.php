@@ -14,7 +14,7 @@
                 MODAL KERJA
             </p>
 
-            <button class="tombol btn btn-lg">Kredit Sekarang</button>
+            <a href="/formKredit" class="tombol btn btn-lg">Kredit Sekarang</a>
         </div>
     </div>
 
@@ -28,7 +28,7 @@
                 LESTARI
             </p>
 
-            <button class="tombol btn btn-lg">Deposit Sekarang</button>
+            <a href="/formDeposito" class="tombol btn btn-lg">Deposit Sekarang</a>
         </div>
     </div>
 </div>
