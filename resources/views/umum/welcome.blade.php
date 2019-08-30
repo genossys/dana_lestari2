@@ -34,9 +34,71 @@
 </div>
 
 <!-- produk -->
-<div class="row">
-    <div class="col-md-4">
+<section class="ProdukKami container">
+    <p class="title text-center">Produk Kami</p>
+    <div class="text-right">
+        <div class="row">
+            <div class="gambarMultiguna col-md-6 text-center">
+                <img class="gambarproduk w-100" src="{{asset('/images/kreditmultiguna.png')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
+            </div>
 
+            <div class="textMultiguna col-md-6">
+                <p class='produktitleisi text-left'>Kredit Multiguna</p>
+                <p class="produkisi text-justify">Kredit Multiguna diperuntukkan bagi para individual yang bekerja sebagai karyawan, profesional dan wiraswasta, untuk memenuhi kebutuhan konsumtif ataupun pengembangan usaha yang sudah berjalan.</p>
+
+                <p class="keunggulantitle text-left">Keunggulan:</p>
+                <li class="produkisi text-left">Plafon Kredit hingga 4 Milyar.</li>
+                <li class="produkisi text-left">Proses cepat 3 hari kerja (Setelah data dinyatakan lengkap).</li>
+                <li class="produkisi text-left">Persyaratan mudah.</li>
+                <li class="produkisi text-left">Perlindungan asuransi.</li>
+                <li class="produkisi text-left">Bebas biaya pinalti untuk pelunasan sewaktu-waktu.</li>
+                <li class="produkisi text-left">Jangka waktu kredit sampai dengan 8 tahun.</li>
+                <li class="produkisi text-left">Bisa Takeover dari bank lain.</li>
+            </div>
+        </div>
     </div>
-</div>
-@endcontent
+
+    <div class="text-right" style="padding-top: 100px">
+        <div class="row">
+
+            <div class="textModalKerja col-md-6">
+                <p class='produktitleisi text-left'>Kredit Modal Kerja</p>
+                <p class="produkisi text-justify">Fasilitas pinjaman diperuntukan bagi para wirausahawan dan korporasi untuk membiayai keperluan usaha, penambahan modal usaha dan pengembangan usaha yang sudah berjalan dengan perhitungan hanya pembayaran bunga pinjaman setiap bulannya.</p>
+
+                <p class="keunggulantitle text-left">Keunggulan:</p>
+                <li class="produkisi text-left">Plafon hingga 15 milyar.</li>
+                <li class="produkisi text-left">Proses cepat 3 hari kerja (Setelah data dinyatakan lengkap).</li>
+                <li class="produkisi text-left">Persyaratan mudah.</li>
+                <li class="produkisi text-left">Perlindungan asuransi.</li>
+                <li class="produkisi text-left">Bebas biaya pinalti untuk pelunasan sewaktu-waktu.</li>
+            </div>
+
+            <div class="gambarModalKerja col-md-6 text-center">
+                <img class="gambarproduk w-100" src="{{asset('/images/kreditmodalkerja.png')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-right" style="padding-top: 100px">
+        <div class="row">
+            <div class="gambarBLoan col-md-6 text-center">
+                <img class="gambarproduk w-100" src="{{asset('/images/BLoan.png')}}" alt="{{asset('/images/BLoan.png')}}">
+            </div>
+
+            <div class="textBLoan col-md-6">
+                <p class='produktitleisi text-left'>Bridging Loan</p>
+                <p class="produkisi text-justify">Fasilitas pinjaman diperuntukan bagi para wirausahawan dan korporasi untuk memenuhi kebutuhan cashflow guna menunjang keperluan usaha, penambahan modal usaha dan pengembangan usaha yang sudah berjalan.</p>
+
+                <p class="keunggulantitle text-left">Keunggulan:</p>
+                <li class="produkisi text-left">Plafon hingga 15 Milyar.</li>
+                <li class="produkisi text-left">Proses cepat 3 hari kerja (Setelah data dinyatakan lengkap).</li>
+                <li class="produkisi text-left">Bebas biaya administrasi dan provisi 3 bulan pertama.</li>
+                <li class="produkisi text-left">Bebas biaya pinalti untuk pelunasan sewaktu-waktu.</li>
+                <li class="produkisi text-left">Syarat mudah.</li>
+            </div>
+        </div>
+    </div>
+</section>
+
+@endsection

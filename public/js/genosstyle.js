@@ -20,3 +20,32 @@ $(".multiple-items").on("afterChange", function() {
     $(".tombol").addClass("jmuncul");
     $(".bgtekshome").addClass("bgmuncul");
 });
+
+$(window).scroll(function() {
+    var wscroll = $(this).scrollTop();
+    console.log(wscroll);
+
+    if(wscroll > $('.gambarMultiguna').offset().top - 500){
+        $(".gambarMultiguna").addClass("muncul");
+        $(".textMultiguna").addClass("muncul");
+    }else{
+        $(".gambarMultiguna").removeClass("muncul");
+        $(".textMultiguna").removeClass("muncul");
+    }
+
+    if(wscroll > $('.gambarModalKerja').offset().top - 500){
+        $(".gambarModalKerja").addClass("muncul");
+        $(".textModalKerja").addClass("muncul");
+    }else{
+        $(".gambarModalKerja").removeClass("muncul");
+        $(".textModalKerja").removeClass("muncul");
+    }
+
+    if(wscroll > $('.gambarBLoan').offset().top - 500){
+        $(".gambarBLoan").addClass("muncul");
+        $(".textBLoan").addClass("muncul");
+    }else{
+        $(".gambarBLoan").removeClass("muncul");
+        $(".textBLoan").removeClass("muncul");
+    }
+});

@@ -9,6 +9,7 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Style -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -46,17 +47,44 @@
 
     <!-- produk -->
     <div class="footerLestari">
-        <div class="container">
+        <div class="container pt-3 pb-5">
             <div class="row">
                 <div class="col-sm-4">
-                    <p class="text-font-weight-bold pt-4 text-light">Kontak Kami</p>
-                    <p class="text-light m-0"><i class="fa fa-location-arrow" aria-hidden="true">&nbsp; Jl. Slamet Riyadi,....</i></p>
-                    <p class="text-light m-0"> <i class="fa fa-phone" aria-hidden="true">&nbsp; 081 321 319 321</i></p>
-                    <p class="text-light m-0"> <i class="fa fa-envelope" aria-hidden="true">&nbsp; danalestari@gmail.com</i></p>
+                    <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Kontak Kami</p>
+                    <table>
+                        <tr >
+                            <td valign="top">
+                                <i class="fa fa-location-arrow text-light mr-2 " aria-hidden="true"></i></td>
+                            <td valign="top">
+                                <p class="text-light">Center Point Solo, Jl. Slamet Riyadi No.371, Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57147</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top">
+                                <i class="fa fa-phone text-light mr-2" aria-hidden="true"> </i>
+                            </td>
+                            <td>
+                                <p class="text-light"> (0271) 710033</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td valign="top">
+                                <i class="fa fa-envelope text-light mr-2" aria-hidden="true"></i>
+                            </td>
+                            <td>
+                            <p class="text-light"> danalestari@gmail.com</p>
+                            </td>
+                        </tr>
+
+
+
+                    </table>
                 </div>
 
-                <div class="col-sm-4" >
-                    <p class="text-font-weight-bold pt-4 text-light">Sosial Media</p>
+                <div class="col-sm-4">
+                    <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Follow Us</p>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"><i class="fa fa-instagram" aria-hidden="true"></i></a>
@@ -84,6 +112,7 @@
                 autoplay: true,
                 autoplaySpeed: 4000,
                 cssEase: 'linear',
+                pauseOnHover: false,
 
             });
         });

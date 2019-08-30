@@ -3,6 +3,20 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.card {
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.formbold{
+    font-weight: 700;
+}
+
+.formpenting{
+    font-weight: 700;
+    color: #09839b;
+}
+
+
 .slide1 {
     background-image: url("../images/slide1.jpg");
     background-size: cover;
@@ -26,7 +40,7 @@ body {
 .slide1 .judulsl2 {
     font-size: 50px;
     font-weight: 900;
-    color: #09839B;
+    color: #09839b;
     margin-bottom: -15px;
     padding-bottom: -15px;
     padding-top: -15px;
@@ -51,7 +65,7 @@ body {
 .slide2 .judulsl2 {
     font-size: 50px;
     font-weight: 900;
-    color: #09839B;
+    color: #09839b;
     margin-bottom: -15px;
     padding-bottom: -15px;
     padding-top: -15px;
@@ -62,12 +76,13 @@ body {
     font-size: 20px;
     font-weight: 900;
     color: #ffffff;
-    background-color: #09839B;
+    background-color: #09839b;
     margin-top: 15px;
 }
 
 .tombol:hover {
     background-color: #ed6e53;
+    color: #ffffff;
 }
 
 .judulsl2,
@@ -100,14 +115,14 @@ body {
 /* FORM KREDIT */
 .judulForm {
     font-size: 25px;
-    color: #09839B;
-    font-weight: 700;
+    color: #09839b;
+    margin-bottom: 70px;
 }
 
 .tombolAjukan {
     font-size: 16px;
     color: #ffffff;
-    background-color: #09839B;
+    background-color: #09839b;
     margin-top: 15px;
 }
 
@@ -115,9 +130,111 @@ body {
     background-color: #ed6e53;
 }
 
+/* isi produk */
+.ProdukKami {
+    font-family: "Poppins", sans-serif;
+    padding-top: 200px;
+}
+
+.ProdukKami .title {
+    font-size: 35px;
+    color: #ed6e53;
+    font-weight: 700;
+    margin-bottom: 75px;
+}
+
+.gambarproduk {
+    width: 75px;
+    object-fit: cover;
+    margin-bottom: 35px;
+}
+
+.produktitleisi {
+    font-size: 30px;
+    color: #09839b;
+}
+
+.keunggulantitle {
+    font-weight: 700;
+    color: #09839b;
+}
+
+.gambarMultiguna {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px, 0);
+}
+
+.gambarMultiguna.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.textMultiguna {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(50px, 0);
+}
+
+.textMultiguna.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.gambarBLoan {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px, 0);
+}
+
+.gambarBLoan.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.textBLoan {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(50px, 0);
+}
+
+.textBLoan.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.gambarModalKerja {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px, 0);
+}
+
+.gambarModalKerja.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.textModalKerja {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(50px, 0);
+}
+
+.textModalKerja.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* DEPOSITO */
+.deposito {
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
+    background-color: #F6F8FD;
+}
+
 /* FOOTER */
-.footerLestari{
-    margin-top: 50px;
+.footerLestari {
+    line-height: 1.5;
     min-height: 200px;
-    background-color: #09839B;
+    background-color: #09839b;
 }
