@@ -10,30 +10,29 @@
 
         <div class="row">
             <div class="col-md-7">
-                <form action="#" method="post">
+                <form action="/ajukandeposito" method="post">
+                    @csrf
                     <div class="form-group">
                         <label class="font-weight-bold">Nama <span class="text-danger">*</span></label>
-                        <input type="text" class="form-control" placeholder="Nama" id="nama" name="nama">
+                        <input type="text" class="form-control" placeholder="Nama" id="nama" name="nama" value="{{old('nama')}}" required>
                     </div>
 
                     <div class="form-group">
                         <label class="font-weight-bold">No. Telp <span class="text-danger">*</span></label>
-                        <input type="number" class="form-control" placeholder="No. Telp" id="noTelp" name="noTelp">
+                        <input type="number" class="form-control" placeholder="No. Telp" id="telp" name="telp" value="{{old('telp')}}" required>
                     </div>
 
                     <div class="form-group">
                         <label class="font-weight-bold">Email <span class="text-danger">*</span></label>
-                        <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+                        <input type="email" class="form-control" placeholder="Email" id="email" name="email" value="{{old('email')}}" required>
                     </div>
 
                     <div class="form-group">
                         <label class="font-weight-bold">Lokasi Domisili <span class="text-danger">*</span></label>
                         <select class="form-control" id="domisili" name="domisili">
-                            <option value="Surakarta">Surakarta</option>
-                            <option value="Semarang">Semarang</option>
-                            <option value="Klaten">Klaten</option>
-                            <option value="Karanganyar">Karanganyar</option>
-                            <option value="Boyolali">Boyolali</option>
+                            @foreach ($kota as $item)
+                                <option value="{{$item['name']}}">{{$item['name']}}</option>
+                            @endforeach
                         </select>
                     </div>
 
@@ -44,7 +43,7 @@
                     </div>
                     <p class="small text-justify">Dengan mengisi form ini, Saya menyetujui Syarat dan Ketentuan dan bersedia untuk dihubungi oleh BPR Lestari Jateng. Saya memberi kuasa kepada BPR Lestari Jateng untuk memeriksa informasi yang Saya berikan dan menghubungi sumber informasi yang layak seperti SLIK, biro kredit atau sejenisnya.</p>
 
-                    <button class="btn tombolAjukan">Ajukan Sekarang</button>
+                    <button type="submit" class="btn tombolAjukan">Ajukan Sekarang</button>
                 </form>
             </div>
 
