@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{csrf_token()}}">
 
-    <title>NAJWA COLLECTION</title>
+    <title>BPR LESTARI JATENG</title>
     
     <link rel="stylesheet" href="{{asset ('/css/font-awesome/css/font-awesome.min.css')}}">
     <link rel="stylesheet" href="{{ asset('/adminlte/css/adminlte.min.css')}}">
@@ -27,7 +27,7 @@
                     <a class="nav-link text-light" data-widget="pushmenu" href="#"><i class="fa fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a class="nav-link">@yield('judul')</a>
+                    <a class="nav-link text-light">@yield('judul')</a>
                 </li>
             </ul>
 
@@ -83,7 +83,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a href="{{route ('pageuser')}}" class="nav-link">
+                                    <a href="{{route ('pagekredit')}}" class="nav-link">
                                         <i class="fa fa-circle-o nav-icon"></i>
                                         <p>Kredit</p>
                                     </a>
@@ -138,7 +138,7 @@
     <script src="{{ asset('/js/jquery.min.js') }}"></script>
     <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
     <script src="{{asset ('/adminlte/js/adminlte.js')}}"></script>
-    <script src="{{ asset('/js/sweetalert.min.js') }}"></script>
+    <script src="{{ asset('/js/sweetalert/sweetalert.min.js') }}"></script>
     @include('sweet::alert')
     @yield('script')
 </body>

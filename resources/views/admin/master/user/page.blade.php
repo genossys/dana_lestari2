@@ -33,9 +33,7 @@
                                     <tr>
                                         <th>#</th>
                                         <th>Username</th>
-                                        <th>Email</th>
-                                        <th>Hak Akses</th>
-                                        <th>No. Telp</th>
+                                        <th>Role</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -74,20 +72,16 @@ $(document).ready(function () {
         columns: [
             { data: 'DT_RowIndex', name: 'DT_RowIndex', searchable: false, orderable: false},
             { data: 'username', name: 'username' },
-            { data: 'email', name: 'email' },
-            { data: 'hakAkses', name: 'hakAkses' },
-            { data: 'noHp', name: 'noHp' },
+            { data: 'role', name: 'role' },
             { data: 'action', name: 'action', searchable: false, orderable: false }
         ],
         columnDefs: [
-            { targets: [0], width:'5%', orderable: false},
-            { targets: [1], width:'10%'},
-            { targets: [2], width:'35%'},
-            { targets: [3], width:'10%'},
-            { targets: [4], width:'10%'},
-            { targets: [5], width:'10%', orderable: false},
+            { targets: [0], width:'10%', orderable: false},
+            { targets: [1], width:'55%'},
+            { targets: [2], width:'25%'},
+            { targets: [3], width:'10%', orderable: false},
             {
-                targets: [0, 1, 3, 4, 5],
+                targets: [0, 1, 3],
                 className: 'text-center'
             },
             {

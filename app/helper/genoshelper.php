@@ -20,3 +20,8 @@ function city()
     $data = json_decode($response, true);
     return $data['data'];
 }
+
+function formatuang($angka)
+{
+    return  number_format($angka, 0, '', '.');
+}

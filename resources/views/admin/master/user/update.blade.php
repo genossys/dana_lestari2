@@ -43,56 +43,22 @@ Edit user
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label>Email </label>
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                                        </div>
-                                        <input type="email" class="form-control @error('email') is-invalid @enderror" placeholder="Email" id="email" name="email" value="{{ old('email', $user->email)}}">
-                                            @error('email')
-                                                <span class="msg invalid-feedback" role="alert">
-                                                    {{$message}}
-                                                </span>
-                                            @enderror
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
                                     <label>Hak Akses</label>
-                                    <select class="form-control" id="hakAkses" name="hakAkses">
+                                    <select class="form-control" id="role" name="role">
                                         <option value="admin" 
-                                        {{ old('hakAkses') == $user->hakAkses ? 'selected="selected"' :
-                                                     $user->hakAkses == 'admin' ? 'selected="selected"' : '' }}>
+                                        {{ old('role') == $user->role ? 'selected="selected"' :
+                                                     $user->role == 'admin' ? 'selected="selected"' : '' }}>
                                                      Admin
                                         </option>
                                         <option value="pimpinan" 
-                                        {{ old('hakAkses') == $user->hakAkses ? 'selected="selected"' :
-                                                     $user->hakAkses == 'pimpinan' ? 'selected="selected"' : '' }}>
+                                        {{ old('role') == $user->role ? 'selected="selected"' :
+                                                     $user->role == 'pimpinan' ? 'selected="selected"' : '' }}>
                                                      Pimpinan
                                         </option>
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                 <div class="form-group">
-                                     <label>No. Hp</label>
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                                        </div>
-                                        <input id="nohp" name="nohp" type="number" class="form-control @error('nohp') is-invalid @enderror" placeholder="No. Hp" aria-label="nohp" aria-describedby="basic-addon1" value="{{ old('nohp', $user->nohp)}}">
-                                        @error('nohp')
-                                            <span class="msg invalid-feedback" role="alert">
-                                                {{$message}}
-                                            </span>
-                                        @enderror
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
+                        </div>
                          <div class="row">
                              <div class="col-md-6">
                                 <div class="form-group">

@@ -34,7 +34,7 @@ class userController extends Controller
     public function getData()
     {
         $user = User::query()
-            ->select('id', 'username', 'email', 'hakAkses', 'noHp')
+            ->select('id', 'username', 'role')
             ->get();
 
         return DataTables::of($user)
@@ -54,8 +54,6 @@ class userController extends Controller
 
         $rules = [
             'username' => 'required|max:191|unique:tb_user,username',
-            'email' => 'required|max:191',
-            'nohp' => 'required|numeric|digits_between:1,15',
             'password' => 'required|string|min:6|confirmed',
         ];
 
@@ -72,10 +70,8 @@ class userController extends Controller
             try {
                 $user = new User();
                 $user->username = $r->username;
-                $user->email = $r->email;
                 $user->password = Hash::make($r->password);
-                $user->nohp = $r->nohp;
-                $user->hakAkses = $r->hakAkses;
+                $user->role = $r->role;
                 $user->save();
                 Alert::success('Success', 'Berhasil Menambahkan Data');
                 return redirect()->back();
@@ -93,8 +89,6 @@ class userController extends Controller
 
         $rules = [
             'username' => 'required|max:191|unique:tb_user,username,' . $r->username . ',username',
-            'email' => 'required|max:191',
-            'nohp' => 'required|numeric|digits_between:1,15',
         ];
 
         if ($r->password != null) {
@@ -114,9 +108,7 @@ class userController extends Controller
                 $id = $r->oldusername;
                 $data = [
                     'username' => $r->username,
-                    'email' => $r->email,
-                    'nohp' => '62' . $r->nohp,
-                    'hakAkses' => $r->hakAkses
+                    'role' => $r->role
                 ];
                 if ($r->password != null) {
                     $data = array_add($data, 'password', Hash::make($r->password));

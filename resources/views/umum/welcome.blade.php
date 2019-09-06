@@ -35,7 +35,7 @@
 
 <!-- produk -->
 <section class="ProdukKami container">
-    <p class="title text-center">Produk Kami</p>
+    <p class="title text-center">Produk Lestari</p>
     <div class="text-right">
         <div class="row">
             <div class="gambarMultiguna col-md-6 text-center">
