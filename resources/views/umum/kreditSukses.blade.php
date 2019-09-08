@@ -7,19 +7,19 @@
 
         <div class="row">
             <div class="div-md-6 offset-md-6 mt-3">
-                <p style="font-size: 25px;color: #ed6e53" class="formpenting">Terima Kasih</p>
-                <p>permintaan kredit anda sudah kami terima</p>
-                <p>untuk info lebih lanjut silahkan hubungi:</p>
+                <p style="--times: 1s;font-size: 25px;color: #ed6e53" class="formpenting animIn">Terima Kasih</p>
+                <p style="--times:1.5s" class="animIn">permintaan kredit anda sudah kami terima</p>
+                <p style="--times:2s" class="animIn">untuk info lebih lanjut silahkan hubungi:</p>
                 <table style="z-index: 12">
-                    <tr>
+                    <tr style="--times:2.5s" class="animIn">
                         <td valign="top">
-                            <i class="fa fa-phone  mr-2 formpenting" aria-hidden="true"> </i></td>
+                            <i  class="fa fa-phone  mr-2 formpenting" aria-hidden="true"> </i></td>
                         <td valign="top">
                             <p class="formpenting">(0271) 710033</p>
                         </td>
                     </tr>
 
-                    <tr>
+                    <tr style="--times:3s" class="animIn">
                         <td valign="top">
                             <i class="fa fa-envelope mr-2 formpenting" aria-hidden="true"></i>
                         </td>

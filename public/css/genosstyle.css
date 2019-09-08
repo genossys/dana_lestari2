@@ -3,8 +3,16 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.nav-item {
+    padding-top: 10px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
 .main-sidebar {
-    background-color: #09839B !important
+    background-color: #09839b !important;
 }
 
 .card {
@@ -20,10 +28,20 @@ body {
     color: #09839b;
 }
 
-
-.slide1 {
+.multiple-items .slide1 {
     background-image: url("../images/slide1.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+
+.multiple-items .slide2 {
+    background-image: url("../images/slide2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
 }
 
 .isiSlide {
@@ -49,11 +67,6 @@ body {
     padding-bottom: -15px;
     padding-top: -15px;
     margin-top: -15px;
-}
-
-.slide2 {
-    background-image: url("../images/slide2.jpg");
-    background-size: cover;
 }
 
 .slide2 .judulsl1 {
@@ -137,7 +150,8 @@ body {
 /* isi produk */
 .ProdukKami {
     font-family: "Poppins", sans-serif;
-    padding-top: 200px;
+    padding-top: 150px;
+    margin-bottom: 70px;
 }
 
 .ProdukKami .title {
@@ -166,7 +180,7 @@ body {
 .gambarMultiguna {
     opacity: 0;
     transition: 1s;
-    transform: translate(-50px, 0);
+    transform: translate(0, 50px);
 }
 
 .gambarMultiguna.muncul {
@@ -177,7 +191,7 @@ body {
 .textMultiguna {
     opacity: 0;
     transition: 1s;
-    transform: translate(50px, 0);
+    transform: translate(0, 50px);
 }
 
 .textMultiguna.muncul {
@@ -188,7 +202,7 @@ body {
 .gambarBLoan {
     opacity: 0;
     transition: 1s;
-    transform: translate(-50px, 0);
+    transform: translate(0, 50px);
 }
 
 .gambarBLoan.muncul {
@@ -199,7 +213,7 @@ body {
 .textBLoan {
     opacity: 0;
     transition: 1s;
-    transform: translate(50px, 0);
+    transform: translate(0, 50px);
 }
 
 .textBLoan.muncul {
@@ -210,7 +224,7 @@ body {
 .gambarModalKerja {
     opacity: 0;
     transition: 1s;
-    transform: translate(-50px, 0);
+    transform: translate(0, 50px);
 }
 
 .gambarModalKerja.muncul {
@@ -221,7 +235,7 @@ body {
 .textModalKerja {
     opacity: 0;
     transition: 1s;
-    transform: translate(50px, 0);
+    transform: translate(0, 50px);
 }
 
 .textModalKerja.muncul {
@@ -233,18 +247,140 @@ body {
 .deposito {
     font-family: "Poppins", sans-serif;
     padding-top: 100px;
-    background-color: #F6F8FD;
+    background-color: #f6f8fd;
 }
 
 /* BERHASIL */
-.cardBerhasil{
+.cardBerhasil {
     height: 451px;
     background-image: url("../images/berhasil.jpg");
 }
 
+.animIn {
+    opacity: 0;
+    transition: var(--times);
+    transform: translate(-50px, 0);
+}
+
+.animIn.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
 /* FOOTER */
 .footerLestari {
     line-height: 1.5;
     min-height: 200px;
     background-color: #09839b;
+}
+
+/* MEDIA KECIL */
+
+@media (max-width: 768px) {
+    .nav-item {
+        padding-top: 10px;
+    }
+
+    .navbar-brand {
+        margin-left: 0;
+    }
+
+    .slide1 .judulsl1 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #ed6e53;
+        margin-bottom: -15px;
+        margin-top: -15px;
+        padding-bottom: -15px;
+        padding-top: -15px;
+    }
+
+    .slide1 .judulsl2 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #09839b;
+        margin-bottom: -15px;
+        padding-bottom: -15px;
+        padding-top: -15px;
+        margin-top: -15px;
+    }
+
+    .slide2 .judulsl1 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #ed6e53;
+        margin-bottom: -15px;
+        margin-top: -15px;
+        padding-bottom: -15px;
+        padding-top: -15px;
+    }
+
+    .slide2 .judulsl2 {
+        font-size: 25px;
+        font-weight: 900;
+        color: #09839b;
+        margin-bottom: -15px;
+        padding-bottom: -15px;
+        padding-top: -15px;
+        margin-top: -15px;
+    }
+
+    .tombol {
+        font-size: 10px;
+        font-weight: 900;
+        color: #ffffff;
+        background-color: #09839b;
+        margin-top: 15px;
+    }
+
+    .ProdukKami {
+        font-family: "Poppins", sans-serif;
+        padding-top: 0;
+        margin-bottom: 70px
+    }
+
+    .multiple-items .slide1 {
+        background-image: url("../images/slide1.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+
+    .multiple-items .slide2 {
+        background-image: url("../images/slide2.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 300px;
+        width: 100%;
+    }
+
+    .ProdukKami .title {
+        font-size: 25px;
+        color: #ed6e53;
+        font-weight: 700;
+        margin-bottom: 55px;
+    }
+
+    .produktitleisi {
+        font-size: 20px;
+        color: #09839b;
+    }
+
+    .keunggulantitle {
+        font-weight: 700;
+        color: #09839b;
+    }
+
+
+    .gambarMultiguna {
+        opacity: 1;
+        transition: 1s;
+        transform: translate(0, 0);
+    }
+
+    .textMultiguna {
+        opacity: 1;
+        transition: 1s;
+        transform: translate(0, 0);
+    }
 }
