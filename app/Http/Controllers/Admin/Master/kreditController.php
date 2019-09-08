@@ -14,7 +14,8 @@ class kreditController extends Controller
     public function index()
     {
         $kota = city();
-        return view('umum.kredit')->with(['kota' => $kota]);
+        // return view('umum.kredit')->with(['kota' => $kota]);
+       return dd($kota);
     }
 
     public function adminpage()
