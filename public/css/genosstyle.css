@@ -3,15 +3,19 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.main-sidebar {
+    background-color: #09839B !important
+}
+
 .card {
     box-shadow: 5px 5px 15px #888888;
 }
 
-.formbold{
+.formbold {
     font-weight: 700;
 }
 
-.formpenting{
+.formpenting {
     font-weight: 700;
     color: #09839b;
 }

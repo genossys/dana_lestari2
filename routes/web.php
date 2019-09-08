@@ -15,12 +15,39 @@ Route::get('/', function () {
     return view('umum.welcome');
 });
 
-Route::get('/formKredit', function () {
-    return view('umum.kredit');
-});
+Auth::routes();
 
-Route::get('/formDeposito', function () {
-    return view('umum.deposito');
+Route::get('/administrator', 'Auth\Admin\LoginController@showLoginForm');
+Route::post('/postlogin', 'Auth\Admin\LoginController@postlogin');
+Route::get('/logout', 'Auth\Admin\LoginController@logout')->name('logoutadmin');
+
+Route::get('/formKredit', 'Admin\Master\kreditController@index');
+Route::post('/ajukankredit', 'Admin\Master\kreditController@add');
+Route::get('/formDeposito', 'Admin\Master\depositoController@index');
+Route::post('/ajukandeposito', 'Admin\Master\depositoController@add');
+
+
+Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+
+    Route::get('/', 'Admin\dashboardController@index');
+
+    Route::group(['prefix' => 'user'], function () {
+        Route::get('/', 'Admin\Master\userController@index')->name('pageuser');
+        Route::get('/view', 'Admin\Master\userController@getData');
+        Route::get('/new', 'Admin\Master\userController@showForm');
+        Route::post('/add', 'Admin\Master\userController@add');
+        Route::get('/store', 'Admin\Master\userController@store');
+        Route::post('/update', 'Admin\Master\userController@edit');
+        Route::delete('/delete', 'Admin\Master\userController@delete');
+    });
+    Route::group(['prefix' => 'kredit'], function () {
+        Route::get('/', 'Admin\Master\kreditController@adminpage')->name('pagekredit');
+        Route::get('/view', 'Admin\Master\kreditController@getData');
+        Route::get('/confirm', 'Admin\Master\kreditController@confirm');
+        Route::get('/store', 'Admin\Master\userController@store');
+        Route::post('/update', 'Admin\Master\userController@edit');
+        Route::delete('/delete', 'Admin\Master\userController@delete');
+    });
 });
 
 Route::get('/kreditSukses', function () {
