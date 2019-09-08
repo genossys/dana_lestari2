@@ -2,8 +2,8 @@
 
 @section('content')
 <!-- slide -->
-<div class="multiple-items" style="width: 100%;height: 800px;padding-top: 45px">
-    <div class="slide1 d-inline-block align-top" style="width: 100%;height: 800px;padding-top: 45px">
+<div class="multiple-items" style="width: 100%;padding-top: 45px">
+    <div class="slide1 align-top" style="padding-top: 45px">
         <div class="isiSlide">
 
             <p class="judulsl1">
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-    <div class="slide2 d-inline-block align-top" style="width: 100%;height: 800px;padding-top: 45px">
+    <div class="slide2 align-top" style="padding-top: 45px">
         <div class="isiSlide">
             <p class="judulsl1">
                 DEPOSITO

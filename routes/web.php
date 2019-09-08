@@ -51,3 +51,7 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
         Route::get('/confirm', 'Admin\Master\depositoController@confirm');
     });
 });
+
+Route::get('/kreditSukses', function () {
+    return view('umum.kreditSukses');
+});

@@ -23,26 +23,30 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #09839B;">
-        <a class="navbar-brand" href="/">
-            <img src="/images/logoputih.png" height="30px" class="d-inline-block align-top" alt="/images/logoputih.png" style="margin-left: 20px">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container-fluid">
 
-        <div class="collapse navbar-collapse " id="navbarNav" style="100%">
-            <ul class="navbar-nav ml-auto " style="margin-right: 20px">
-                <li class="nav-item ">
-                    <a class="nav-link mr-3" href="/formKredit">Kredit <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="/formDeposito">Deposito</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
 
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #09839B;">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logoputih.png" height="30px" class="d-inline-block align-top" alt="/images/logoputih.png">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ml-auto " style="margin-right: 20px">
+                    <li class="nav-item ">
+                        <a class="nav-link mr-3" href="/formKredit">Kredit <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="/formDeposito">Deposito</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     @yield('content')
 
     <!-- produk -->
@@ -52,7 +56,7 @@
                 <div class="col-sm-4">
                     <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Kontak Kami</p>
                     <table>
-                        <tr >
+                        <tr>
                             <td valign="top">
                                 <i class="fa fa-location-arrow text-light mr-2 " aria-hidden="true"></i></td>
                             <td valign="top">
@@ -74,7 +78,7 @@
                                 <i class="fa fa-envelope text-light mr-2" aria-hidden="true"></i>
                             </td>
                             <td>
-                            <p class="text-light"> danalestari@gmail.com</p>
+                                <p class="text-light"> danalestari@gmail.com</p>
                             </td>
                         </tr>
 
@@ -101,6 +105,8 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="{{ asset('/js/genosstyle.js') }}"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $('.multiple-items').slick({

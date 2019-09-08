@@ -3,6 +3,8 @@ $(window).on("load", function() {
     $(".judulsl1").addClass("jmuncul");
     $(".tombol").addClass("jmuncul");
     $(".bgtekshome").addClass("bgmuncul");
+    $(".animIn").addClass("muncul");
+
 });
 
 $(".multiple-items").on("beforeChange", function() {
@@ -33,7 +35,7 @@ $(window).scroll(function() {
         $(".textMultiguna").removeClass("muncul");
     }
 
-    if(wscroll > $('.gambarModalKerja').offset().top - 500){
+    if(wscroll > $('.textModalKerja').offset().top - 500){
         $(".gambarModalKerja").addClass("muncul");
         $(".textModalKerja").addClass("muncul");
     }else{
