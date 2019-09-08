@@ -89,7 +89,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a href="{{route ('pageuser')}}" class="nav-link">
+                                    <a href="{{route ('pagedeposito')}}" class="nav-link">
                                         <i class="fa fa-circle-o nav-icon"></i>
                                         <p>Deposito</p>
                                     </a>

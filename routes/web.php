@@ -44,8 +44,10 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
         Route::get('/', 'Admin\Master\kreditController@adminpage')->name('pagekredit');
         Route::get('/view', 'Admin\Master\kreditController@getData');
         Route::get('/confirm', 'Admin\Master\kreditController@confirm');
-        Route::get('/store', 'Admin\Master\userController@store');
-        Route::post('/update', 'Admin\Master\userController@edit');
-        Route::delete('/delete', 'Admin\Master\userController@delete');
+    });
+    Route::group(['prefix' => 'deposito'], function () {
+        Route::get('/', 'Admin\Master\depositoController@adminpage')->name('pagedeposito');
+        Route::get('/view', 'Admin\Master\depositoController@getData');
+        Route::get('/confirm', 'Admin\Master\depositoController@confirm');
     });
 });

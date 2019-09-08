@@ -5,7 +5,7 @@
 <section style="padding-top: 100px" class="pb-4 deposito">
     <div class="container card pt-4 pb-4">
         <p class="judulForm text-center">
-            Form Kredit
+            Form Kredit 
         </p>
 
         <div class="row">

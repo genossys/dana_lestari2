@@ -13,7 +13,8 @@ class kreditController extends Controller
     //
     public function index()
     {
-        $kota = city();
+        $token = getToken();
+        $kota = city($token);
         return view('umum.kredit')->with(['kota' => $kota]);
     }
 
