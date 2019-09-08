@@ -232,6 +232,12 @@ body {
     background-color: #F6F8FD;
 }
 
+/* BERHASIL */
+.cardBerhasil{
+    height: 451px;
+    background-image: url("../images/berhasil.jpg");
+}
+
 /* FOOTER */
 .footerLestari {
     line-height: 1.5;

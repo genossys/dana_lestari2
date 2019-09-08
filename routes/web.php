@@ -22,3 +22,7 @@ Route::get('/formKredit', function () {
 Route::get('/formDeposito', function () {
     return view('umum.deposito');
 });
+
+Route::get('/kreditSukses', function () {
+    return view('umum.kreditSukses');
+});

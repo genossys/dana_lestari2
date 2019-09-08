@@ -1,0 +1,35 @@
+@extends('umum.layout')
+
+@section('content')
+<!-- form kredit -->
+<section style="padding-top: 100px" class="pb-4 deposito">
+    <div class="container card pt-4 pb-4 cardBerhasil">
+
+        <div class="row">
+            <div class="div-md-6 offset-md-6 mt-3">
+                <p style="font-size: 25px;color: #ed6e53" class="formpenting">Terima Kasih</p>
+                <p>permintaan kredit anda sudah kami terima</p>
+                <p>untuk info lebih lanjut silahkan hubungi:</p>
+                <table style="z-index: 12">
+                    <tr>
+                        <td valign="top">
+                            <i class="fa fa-phone  mr-2 formpenting" aria-hidden="true"> </i></td>
+                        <td valign="top">
+                            <p class="formpenting">(0271) 710033</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td valign="top">
+                            <i class="fa fa-envelope mr-2 formpenting" aria-hidden="true"></i>
+                        </td>
+                        <td>
+                            <p class="formpenting"> danalestari@gmail.com</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection
