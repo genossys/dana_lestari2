@@ -103,7 +103,7 @@
                                 4.500.000.000 </option>
                             <option value="5000000000" class="">
                                 5.000.000.000 </option>
-                            <option value="Diatas 5 Miliar" class="">
+                            <option value="5000000001" class="">
                                 Diatas 5 Miliar </option>
                         </select>
                     </div>

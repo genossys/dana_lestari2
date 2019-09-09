@@ -23,8 +23,10 @@ Route::get('/logout', 'Auth\Admin\LoginController@logout')->name('logoutadmin');
 
 Route::get('/formKredit', 'Admin\Master\kreditController@index');
 Route::post('/ajukankredit', 'Admin\Master\kreditController@add');
+Route::get('/callbackkredit', 'Admin\Master\kreditController@Sukses');
 Route::get('/formDeposito', 'Admin\Master\depositoController@index');
 Route::post('/ajukandeposito', 'Admin\Master\depositoController@add');
+Route::get('/callbackdeposito', 'Admin\Master\depositoController@Sukses');
 
 
 Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {

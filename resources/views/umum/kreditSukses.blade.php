@@ -8,7 +8,7 @@
         <div class="row">
             <div class="div-md-6 offset-md-6 mt-3">
                 <p style="--times: 1s;font-size: 25px;color: #ed6e53" class="formpenting animIn">Terima Kasih</p>
-                <p style="--times:1.5s" class="animIn">permintaan kredit anda sudah kami terima</p>
+                <p style="--times:1.5s" class="animIn">permintaan {{$data}} anda sudah kami terima</p>
                 <p style="--times:2s" class="animIn">untuk info lebih lanjut silahkan hubungi:</p>
                 <table style="z-index: 12">
                     <tr style="--times:2.5s" class="animIn">

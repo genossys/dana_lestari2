@@ -22,6 +22,10 @@ class kreditController extends Controller
     {
         return view('admin.master.kredit.page');
     }
+    public function Sukses()
+    {
+        return view('umum.kreditSukses')->with(['data' => 'Kredit']);
+    }
 
     public function add(Request $r)
     {
@@ -38,7 +42,7 @@ class kreditController extends Controller
             $kredit->pinjaman = $r->pinjaman;
             $kredit->confirmed = '0';
             $kredit->save();
-            return redirect('/');
+            return redirect('/callbackkredit');
         } catch (\Exception $e) {
             $exData = explode('(', $e->getMessage());
             return redirect()->back();

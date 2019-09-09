@@ -25,7 +25,7 @@ class depositoController extends Controller
             $deposito->domisili = $r->domisili;
             $deposito->confirmed = '0';
             $deposito->save();
-            return redirect('/');
+            return redirect('/callbackdeposito');
         } catch (\Exception $e) {
             $exData = explode('(', $e->getMessage());
             return redirect()->back();
@@ -34,6 +34,10 @@ class depositoController extends Controller
     public function adminpage()
     {
         return view('admin.master.deposito.page');
+    }
+    public function Sukses()
+    {
+        return view('umum.kreditSukses')->with(['data' => 'Deposito']);
     }
     public function getData()
     {
