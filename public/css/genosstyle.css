@@ -383,4 +383,13 @@ body {
         transition: 1s;
         transform: translate(0, 0);
     }
+
+    .suksesKredit p{
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .suksesKredit table{
+        margin-left: 10px;
+    }
 }

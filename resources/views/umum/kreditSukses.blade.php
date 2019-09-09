@@ -5,7 +5,7 @@
 <section style="padding-top: 100px" class="pb-4 deposito">
     <div class="container card pt-4 pb-4 cardBerhasil">
 
-        <div class="row">
+        <div class="row suksesKredit">
             <div class="div-md-6 offset-md-6 mt-3">
                 <p style="--times: 1s;font-size: 25px;color: #ed6e53" class="formpenting animIn">Terima Kasih</p>
                 <p style="--times:1.5s" class="animIn">permintaan kredit anda sudah kami terima</p>
