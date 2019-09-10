@@ -7,7 +7,7 @@
         <div class="isiSlide">
 
             <p class="judulsl1">
-                KREDIT
+                KREDIT HEHE
             </p>
 
             <p class="judulsl2">
