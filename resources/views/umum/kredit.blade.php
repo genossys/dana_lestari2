@@ -5,7 +5,7 @@
 <section style="padding-top: 100px" class="pb-4 deposito">
     <div class="container card pt-4 pb-4">
         <p class="judulForm text-center">
-            Form Kredit 
+            Form Kredit
         </p>
 
         <div class="row">
@@ -119,28 +119,11 @@
                 </form>
             </div>
 
-            <div class="col-md-5 p-2">
+            <div class="col-md-5 p-2 butuhBantuan">
                 <p class="formbold">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
-                <table style="z-index: 12">
-                    <tr>
-                        <td valign="top">
-                            <i class="fa fa-phone  mr-2 formpenting" aria-hidden="true"> </i></td>
-                        <td valign="top">
-                            <p class="formpenting">(0271) 710033</p>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td valign="top">
-                            <i class="fa fa-envelope mr-2 formpenting" aria-hidden="true"></i>
-                        </td>
-                        <td>
-                            <p class="formpenting"> danalestari@gmail.com</p>
-                        </td>
-                    </tr>
-                </table>
+                <a href="tel:+8975050520"><img src="{{asset('images/tanya lestari.png')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
             </div>
         </div>
     </div>

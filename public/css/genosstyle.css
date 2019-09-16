@@ -273,6 +273,14 @@ body {
     background-color: #09839b;
 }
 
+.footerLestari img{
+    width: 390px;
+}
+
+.butuhBantuan img{
+    width: 300px;
+}
+
 /* MEDIA KECIL */
 
 @media (max-width: 768px) {

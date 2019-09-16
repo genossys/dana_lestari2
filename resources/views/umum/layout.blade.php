@@ -87,7 +87,7 @@
                     </table>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-sm-4 text-center">
                     <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Follow Us</p>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -95,7 +95,7 @@
                 </div>
 
                 <div class="col-sm-4">
-
+                    <img class="pt-4" src="{{asset('images/ojk.png')}}" alt="{{asset('images/ojk.png')}}">
                 </div>
             </div>
         </div>

@@ -51,24 +51,7 @@
                 <p class="formbold">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
-                <table style="z-index: 12">
-                    <tr>
-                        <td valign="top">
-                            <i class="fa fa-phone  mr-2 formpenting" aria-hidden="true"> </i></td>
-                        <td valign="top">
-                            <p class="formpenting">(0271) 710033</p>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td valign="top">
-                            <i class="fa fa-envelope mr-2 formpenting" aria-hidden="true"></i>
-                        </td>
-                        <td>
-                            <p class="formpenting"> danalestari@gmail.com</p>
-                        </td>
-                    </tr>
-                </table>
+                <img src="{{asset('images/tanya lestari.png')}}" alt="{{asset('images/tanya lestari.png')}}">
             </div>
         </div>
 

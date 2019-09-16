@@ -80,7 +80,7 @@
         </div>
     </div>
 
-    <div class="text-right" style="padding-top: 100px">
+    <!-- <div class="text-right" style="padding-top: 100px">
         <div class="row">
             <div class="gambarBLoan col-md-6 text-center">
                 <img class="gambarproduk w-100" src="{{asset('/images/BLoan.png')}}" alt="{{asset('/images/BLoan.png')}}">
@@ -98,7 +98,7 @@
                 <li class="produkisi text-left">Syarat mudah.</li>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 @endsection
