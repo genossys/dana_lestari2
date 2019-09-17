@@ -44,15 +44,13 @@
 
             <div class="textMultiguna col-md-6">
                 <p class='produktitleisi text-left'>Kredit Multiguna</p>
-                <p class="produkisi text-justify">Kredit Multiguna diperuntukkan bagi para individual yang bekerja sebagai karyawan, profesional dan wiraswasta, untuk memenuhi kebutuhan konsumtif ataupun pengembangan usaha yang sudah berjalan.</p>
+                <p class="produkisi text-justify">Kredit Multiguna diperuntukkan bagi para individual yang bekerja sebagai karyawan, profesional dan wiraswasta, untuk memenuhi investasi konsumtif ataupun pengembangan usaha yang sudah berjalan.</p>
 
                 <p class="keunggulantitle text-left">Keunggulan:</p>
-                <li class="produkisi text-left">Plafon Kredit hingga 4 Milyar.</li>
                 <li class="produkisi text-left">Proses cepat 3 hari kerja (Setelah data dinyatakan lengkap).</li>
                 <li class="produkisi text-left">Persyaratan mudah.</li>
                 <li class="produkisi text-left">Perlindungan asuransi.</li>
                 <li class="produkisi text-left">Bebas biaya pinalti untuk pelunasan sewaktu-waktu.</li>
-                <li class="produkisi text-left">Jangka waktu kredit sampai dengan 8 tahun.</li>
                 <li class="produkisi text-left">Bisa Takeover dari bank lain.</li>
             </div>
         </div>
@@ -102,3 +100,27 @@
 </section>
 
 @endsection
+
+@section('css')
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+@endsection
+
+@section('script')
+<script src="{{ asset('/js/genosstyle.js') }}"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.multiple-items').slick({
+            dots: false,
+            infinite: true,
+            speed: 1500,
+            fade: true,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            cssEase: 'linear',
+            pauseOnHover: false,
+
+        });
+    });
+    @endsection

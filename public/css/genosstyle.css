@@ -5,11 +5,13 @@ body {
 
 .nav-item {
     padding-top: 10px;
+    color: #ffffff;
 }
 
 .navbar-brand {
     margin-left: 20px;
 }
+
 
 .main-sidebar {
     background-color: #09839b !important;
@@ -251,9 +253,14 @@ body {
 }
 
 /* BERHASIL */
-.cardBerhasil {
+.cardBerhasilKredit {
     height: 451px;
-    background-image: url("../images/berhasil.jpg");
+    background-image: url("../images/suksesKredit.jpg");
+}
+
+.cardBerhasilDeposito {
+    height: 451px;
+    background-image: url("../images/suksesDeposito.jpg");
 }
 
 .animIn {
@@ -274,11 +281,11 @@ body {
 }
 
 .footerLestari img{
-    width: 390px;
+    width: 100%;
 }
 
 .butuhBantuan img{
-    width: 300px;
+    width: 75%;
 }
 
 /* MEDIA KECIL */
@@ -399,5 +406,17 @@ body {
 
     .suksesKredit table{
         margin-left: 10px;
+    }
+
+
+    /* COMPONENTS */
+    .expandViews {
+        background-color: #ffffff;
+        transition: 1s;
+        color: #09839b;
+    }
+
+    .expandView:hover {
+        background-color: #09839b;
     }
 }

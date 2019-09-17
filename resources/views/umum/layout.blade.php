@@ -12,10 +12,11 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Style -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="{{ asset('/css/genosstyle.css') }}" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="{{asset ('adminlte/plugins/font-awesome/css/font-awesome.min.css')}}">
 
 
     @yield('css')
@@ -38,10 +39,14 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto " style="margin-right: 20px">
                     <li class="nav-item ">
-                        <a class="nav-link mr-3" href="/formKredit">Kredit <span class="sr-only">(current)</span></a>
+                        <a class="nav-link mr-3 text-light" href="/">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link mr-3 text-light" href="/formKredit">Kredit <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/formDeposito">Deposito</a>
+                        <a class="nav-link text-light" href="/formDeposito">Deposito</a>
                     </li>
                 </ul>
             </div>
@@ -49,6 +54,9 @@
     </div>
     @yield('content')
 
+    <!-- chat wa -->
+    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3" style="width: 75px;position: fixed; bottom: 0px; right: 0px;" src="{{asset('images/logowa.png')}}" alt="{{asset('images/logowa.png')}}"></a>
+    <div style="clear: both;"></div>
     <!-- produk -->
     <div class="footerLestari">
         <div class="container pt-3 pb-5">
@@ -103,25 +111,11 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="{{ asset('/js/genosstyle.js') }}"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('.multiple-items').slick({
-                dots: false,
-                infinite: true,
-                speed: 1500,
-                fade: true,
-                arrows: false,
-                autoplay: true,
-                autoplaySpeed: 4000,
-                cssEase: 'linear',
-                pauseOnHover: false,
 
-            });
-        });
     </script>
 
     <script>
