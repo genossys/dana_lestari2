@@ -58,7 +58,7 @@ Route::get('/kreditSukses', function () {
     return view('umum.kreditSukses');
 });
 
-Route::get('/-cache', function() {
+Route::get('/c-cache', function() {
     Artisan::call('cache:clear');
     return "Cache is cleared";
 });
