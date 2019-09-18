@@ -3,6 +3,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+body .fa{
+    font-family: 'sow-fontawesome' !important;
+}
+
+
 .nav-item {
     padding-top: 10px;
     color: #ffffff;
@@ -11,7 +16,6 @@ body {
 .navbar-brand {
     margin-left: 20px;
 }
-
 
 .main-sidebar {
     background-color: #09839b !important;
@@ -280,12 +284,29 @@ body {
     background-color: #09839b;
 }
 
-.footerLestari img{
+.footerLestari img {
     width: 100%;
 }
 
-.butuhBantuan img{
+.butuhBantuan img {
     width: 75%;
+}
+
+/* COMPONENTS */
+.expandViews {
+    background-color: #ffffff;
+    transition: 1s;
+    color: #09839b;
+}
+
+.expandViewsBody li{
+    font-size: 14px;
+}
+
+.expandViews:hover {
+    background-color: #09839b;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 /* MEDIA KECIL */
@@ -350,7 +371,7 @@ body {
     .ProdukKami {
         font-family: "Poppins", sans-serif;
         padding-top: 0;
-        margin-bottom: 70px
+        margin-bottom: 70px;
     }
 
     .multiple-items .slide1 {
@@ -386,7 +407,6 @@ body {
         color: #09839b;
     }
 
-
     .gambarMultiguna {
         opacity: 1;
         transition: 1s;
@@ -399,15 +419,14 @@ body {
         transform: translate(0, 0);
     }
 
-    .suksesKredit p{
+    .suksesKredit p {
         font-size: 10px;
         padding-left: 10px;
     }
 
-    .suksesKredit table{
+    .suksesKredit table {
         margin-left: 10px;
     }
-
 
     /* COMPONENTS */
     .expandViews {
@@ -418,5 +437,6 @@ body {
 
     .expandView:hover {
         background-color: #09839b;
+        color: #ffffff;
     }
 }

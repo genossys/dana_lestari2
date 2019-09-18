@@ -9,7 +9,7 @@
         </p>
 
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
 
                 <form action="/ajukankredit" method="post">
                     @csrf
@@ -80,17 +80,17 @@
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Setuju dengan syarat dan ketentuan</label>
                     </div>
-                    <p class="small">Dengan mengisi form ini, Saya menyetujui Syarat dan Ketentuan dan bersedia untuk dihubungi oleh BPR Lestari Jateng. Saya memberi kuasa kepada BPR Lestari Jateng untuk memeriksa informasi yang Saya berikan dan menghubungi sumber informasi yang layak seperti SLIK, biro kredit atau sejenisnya.</p>
+                    <p class="small text-justify">Dengan mengisi form ini, Saya menyetujui Syarat dan Ketentuan dan bersedia untuk dihubungi oleh BPR Lestari Jateng. Saya memberi kuasa kepada BPR Lestari Jateng untuk memeriksa informasi yang Saya berikan dan menghubungi sumber informasi yang layak seperti SLIK, biro kredit atau sejenisnya.</p>
 
                     <button type="submit" class="btn tombolAjukan">Ajukan Sekarang</button>
                 </form>
             </div>
 
-            <div class="col-md-5 pr-2 butuhBantuan">
+            <div class="col-md-5 pr-2 butuhBantuan offset-1">
                 <label for="syarat">Syarat Dokumen dan Agunan</label>
-                <div class="card card-default collapsed-card " >
-                    <div class="card-header expandViews">
-                        <h3 class="card-title " data-widget="collapse">Expandable</h3>
+                <div class="card card-default collapsed-card">
+                    <div class="card-header expandViews" data-widget="collapse">
+                        <h3 class="card-title">Karyawan</h3>
 
                         <div class="card-tools ">
                             <button type="button" class="btn btn-tool " data-widget="collapse"><i class="fa fa-plus"></i>
@@ -99,16 +99,108 @@
                         <!-- /.card-tools -->
                     </div>
                     <!-- /.card-header -->
-                    <div class="card-body">
-                        <li>asw</li>
-                        <li>gok</li>
-                        <li>T</li>
+                    <div class="card-body expandViewsBody">
+                        <li>Copy KTP (Suami/Istri yang masih berlaku)</li>
+                        <li>Copy Kartu Keluarga </li>
+                        <li>Copy Rekening Koran/Tabungan 3 Bulan Terakhir</li>
+                        <li>Slip Gaji Terbaru</li>
+                        <li>Copy Surat Keterangan Bekerja</li>
+                        <li>Copy SHM/SHGB</li>
+                        <li>Copy IMB</li>
+                        <li>Copy PBB</li>
+                        <li>Copy Riwayat Pinjaman di bank lain (jika take over)</li>
                     </div>
                     <!-- /.card-body -->
                 </div>
 
+                <div class="card card-default collapsed-card">
+                    <div class="card-header expandViews" data-widget="collapse">
+                        <h3 class="card-title">Profesional</h3>
 
-                <p class="formbold mt-3">Butuh Bantuan?</p>
+                        <div class="card-tools ">
+                            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body expandViewsBody">
+                        <li>Copy KTP (Suami/Istri yang masih berlaku)</li>
+                        <li>Copy Kartu Keluarga</li>
+                        <li>Copy Akta Nikah dari Catatan Sipil/Cerai Dari Pengadilan/Kematian</li>
+                        <li>TDP/SIUP/Surat Keterangan Usaha</li>
+                        <li>Copy Catatan Keuangan</li>
+                        <li>Copy Rekening Koran/Tabungan 3 Bulan Terakhir</li>
+                        <li>Slip Gaji Terbaru</li>
+                        <li>Copy Surat Keterangan Bekerja</li>
+                        <li>Copy Surat Keputusan Pengangkatan</li>
+                        <li>Copy Surat Keterangan Praktek/Ijin Praktek</li>
+                        <li>Copy Keanggotaan Profesional</li>
+                        <li>Surat Rekomendasi Dari Tempat Bekerja</li>
+                        <li>Copy SHM/SHGB</li>
+                        <li>Copy IMB</li>
+                        <li>Copy PBB</li>
+                        <li>Copy Riwayat Pinjaman di bank lain (jika take over)</li>
+                    </div>
+
+                    <!-- /.card-body -->
+                </div>
+
+                <div class="card card-default collapsed-card ">
+                    <div class="card-header expandViews" data-widget="collapse">
+                        <h3 class="card-title">Wiraswasta</h3>
+
+                        <div class="card-tools ">
+                            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body expandViewsBody">
+                        <li>Copy KTP (Suami/Istri yang masih berlaku)</li>
+                        <li>Copy Kartu Keluarga</li>
+                        <li>Copy Akta Nikah dari Catatan Sipil/Cerai Dari Pengadilan/Kematian</li>
+                        <li>TDP/SIUP/Surat Keterangan Usaha</li>
+                        <li>Neraca (Rugi/Laba)/Laporan Keungan</li>
+                        <li>Copy Catatan Keuangan</li>
+                        <li>Copy Rekening Koran/Tabungan 3 Bulan Terakhir</li>
+                        <li>Copy SHM/SHGB</li>
+                        <li>Copy IMB</li>
+                        <li>Copy PBB</li>
+                        <li>Copy Riwayat Pinjaman di bank lain (jika take over)</li>
+                    </div>
+
+                    <!-- /.card-body -->
+                </div>
+
+                <div class="card card-default collapsed-card ">
+                    <div class="card-header expandViews" data-widget="collapse">
+                        <h3 class="card-title">Perusahaan</h3>
+
+                        <div class="card-tools ">
+                            <button type="button" class="btn btn-tool" data-widget="collapse"><i class="fa fa-plus"></i>
+                            </button>
+                        </div>
+                        <!-- /.card-tools -->
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body expandViewsBody">
+                        <li>Copy KTP Seluruh Pengurus</li>
+                        <li>Akta Pendirian dan Perubahan Terbaru Jika Ada</li>
+                        <li>SK Kemenkumham</li>
+                        <li>NPWP Perusahaan</li>
+                        <li>Tanda Daftar Perusahaan</li>
+                        <li>Surat Izin Usaha</li>
+                        <li>Surat Keterangan Domisili Usaha</li>
+                        <li>Neraca (Rugi/Laba)/Laporan Keuangan</li>
+                        <li>Copy Catatan Keuangan</li>
+                        <li>Copy Rekening Koran/Tabungan 6 Bulan Terakhir</li>
+                    </div>
+
+                    <!-- /.card-body -->
+                </div>
+                <p class="formbold mt-5">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
                 <a href="tel:+62271710003"><img src="{{asset('images/tanya lestari.png')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
@@ -124,4 +216,11 @@
 
 @section('script')
 <script src="{{asset ('/adminlte/js/adminlte.js')}}"></script>
+
+<script>
+    $('.expandViews').click(function() {
+        $("i", this).toggleClass("fa fa-plus");
+        $("i", this).toggleClass("fa fa-minus");
+    });
+</script>
 @endsection

@@ -14,9 +14,10 @@
     <!-- Style -->
 
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css') }}"  />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="{{ asset('/css/genosstyle.css') }}" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ asset('/css/genosstyle.css') }}"  />
 
 
     @yield('css')
@@ -55,7 +56,7 @@
     @yield('content')
 
     <!-- chat wa -->
-    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3" style="width: 75px;position: fixed; bottom: 0px; right: 0px;" src="{{asset('images/logowa.png')}}" alt="{{asset('images/logowa.png')}}"></a>
+    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3" style="width: 75px;position: fixed; bottom: 0px; right: 0px; z-index: 999" src="{{asset('images/logowa.png')}}" alt="{{asset('images/logowa.png')}}"></a>
     <div style="clear: both;"></div>
     <!-- produk -->
     <div class="footerLestari">
@@ -97,9 +98,9 @@
 
                 <div class="col-sm-4 text-center">
                     <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Follow Us</p>
-                    <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="#" class="text-light mr-2" style="font-size: 30px"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fab fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#" class="text-light mr-2" style="font-size: 30px"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                 </div>
 
                 <div class="col-sm-4">
@@ -113,6 +114,7 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script type="text/javascript" src="{{asset ('fontawesome/js/all.min.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 

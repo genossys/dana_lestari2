@@ -4,7 +4,6 @@ $(window).on("load", function() {
     $(".tombol").addClass("jmuncul");
     $(".bgtekshome").addClass("bgmuncul");
     $(".animIn").addClass("muncul");
-
 });
 
 $(".multiple-items").on("beforeChange", function() {
@@ -27,27 +26,19 @@ $(window).scroll(function() {
     var wscroll = $(this).scrollTop();
     console.log(wscroll);
 
-    if(wscroll > $('.gambarMultiguna').offset().top - 500){
+    if (wscroll > $(".gambarMultiguna").offset().top - 500) {
         $(".gambarMultiguna").addClass("muncul");
         $(".textMultiguna").addClass("muncul");
-    }else{
+    } else {
         $(".gambarMultiguna").removeClass("muncul");
         $(".textMultiguna").removeClass("muncul");
     }
 
-    if(wscroll > $('.textModalKerja').offset().top - 500){
+    if (wscroll > $(".textModalKerja").offset().top - 500) {
         $(".gambarModalKerja").addClass("muncul");
         $(".textModalKerja").addClass("muncul");
-    }else{
+    } else {
         $(".gambarModalKerja").removeClass("muncul");
         $(".textModalKerja").removeClass("muncul");
-    }
-
-    if(wscroll > $('.gambarBLoan').offset().top - 500){
-        $(".gambarBLoan").addClass("muncul");
-        $(".textBLoan").addClass("muncul");
-    }else{
-        $(".gambarBLoan").removeClass("muncul");
-        $(".textBLoan").removeClass("muncul");
     }
 });

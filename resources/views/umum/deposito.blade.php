@@ -9,7 +9,7 @@
         </p>
 
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <form action="/ajukandeposito" method="post">
                     @csrf
                     <div class="form-group">
@@ -59,7 +59,7 @@
                 </form>
             </div>
 
-            <div class="col-md-5 pr-5 butuhBantuan">
+            <div class="col-md-5 pr-5 butuhBantuan offset-1">
                 <p class="formbold">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
