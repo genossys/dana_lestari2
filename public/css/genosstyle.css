@@ -3,11 +3,6 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-body .fa{
-    font-family: 'sow-fontawesome' !important;
-}
-
-
 .nav-item {
     padding-top: 10px;
     color: #ffffff;
@@ -299,7 +294,7 @@ body .fa{
     color: #09839b;
 }
 
-.expandViewsBody li{
+.expandViewsBody li {
     font-size: 14px;
 }
 
@@ -308,6 +303,20 @@ body .fa{
     color: #ffffff;
     cursor: pointer;
 }
+
+.floatButton {
+    width: 60px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 999;
+    transition: 0.2s;
+}
+
+.floatButton:hover{
+    width: 63px;
+}
+
 
 /* MEDIA KECIL */
 
