@@ -437,15 +437,4 @@ body {
         margin-left: 10px;
     }
 
-    /* COMPONENTS */
-    .expandViews {
-        background-color: #ffffff;
-        transition: 1s;
-        color: #09839b;
-    }
-
-    .expandView:hover {
-        background-color: #09839b;
-        color: #ffffff;
-    }
 }
