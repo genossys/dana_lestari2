@@ -99,9 +99,9 @@
 
                 <div class="col-sm-4 text-center">
                     <p class="text-font-weight-bold pt-5 text-light" style="font-weight: 700">Follow Us</p>
-                    <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.facebook.com/BankBPRLestariJateng/" class="text-light mr-2" style="font-size: 30px"> <i class="fab fa-facebook-square" aria-hidden="true"></i></a>
                     <a href="#" class="text-light mr-2" style="font-size: 30px"> <i class="fab fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="#" class="text-light mr-2" style="font-size: 30px"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="http://instagram.com/bpr_lestarijateng/" class="text-light mr-2" style="font-size: 30px"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                 </div>
 
                 <div class="col-sm-4">
