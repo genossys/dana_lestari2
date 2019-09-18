@@ -91,9 +91,8 @@ body {
     margin-top: -15px;
 }
 
-.tombol {
+.btn.tombol {
     font-size: 20px;
-    font-weight: 900;
     color: #ffffff;
     background-color: #09839b;
     margin-top: 15px;
@@ -370,9 +369,9 @@ body {
         margin-top: -15px;
     }
 
-    .tombol {
+    .btn.tombol {
         font-size: 10px;
-        font-weight: 900;
+        font-weight: 400;
         color: #ffffff;
         background-color: #09839b;
         margin-top: 15px;
