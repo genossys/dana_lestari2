@@ -32,7 +32,7 @@ class kreditController extends Controller
         if ($r->pinjaman < 100000000) {
             # code...
             Alert::error('Oops', 'Maaf, Jumlah Pinjaman Anda Kurang dari Jumlah Minimal Pinjaman');
-            return redirect()->back();
+            return redirect()->back()->withInput();
         } else {
             try {
                 //code...
@@ -50,7 +50,7 @@ class kreditController extends Controller
                 return redirect('/callbackkredit');
             } catch (\Exception $e) {
                 $exData = explode('(', $e->getMessage());
-                return redirect()->back();
+                return redirect()->back()->withInput();
             }
         }
     }
