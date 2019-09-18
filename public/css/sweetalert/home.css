@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'sertig';
+    src: url('../font/Sertig.otf');
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'source-sans-pro';
+    src: url('../font/source-sans-pro/SourceSansPro-Light.otf');
+}
+
+@font-face {
+    font-family: 'source-sans-pro-bold';
+    src: url('../font/source-sans-pro/SourceSansPro-Bold.otf');
+}
+
+html,
+body {
+    font-family: 'source-sans-pro';
+    padding: 0;
+    margin: 0;
+}
+
+nav .brand img {
+    height: 60px;
+    margin-left: 20px;
+}
+
+nav a.navbar-brand {
+    margin-left: 30px;
+}
+
+ul.navbar-nav {
+    margin-right: 30px;
+
+}
+
+.navbar-nav a {
+    color: azure;
+}
+
+.navbar-nav a:hover {
+    color: azure;
+    text-decoration: underline;
+}
+
+#wrapper {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.slick-list img {
+    width: 100%;
+    height: 300px;
+    border-radius: 0px;
+    margin-left: 20px;
+}
+
+.pallete-product {
+    border-radius: 0px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
+}
+
+.kartuproduk {
+    height: 300px;
+    overflow: hidden;
+    font-family: 'source-sans-pro';
+    margin-bottom: 10px;
+}
+
+.kartuproduk img {
+    width: 100%;
+    height: 55%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.kartuproduk .namaproduk {
+    font-family: 'source-sans-pro';
+    font-size: 18px;
+    font-weight: 700;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.kartuproduk .hargaproduk {
+    overflow: hidden;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.kartuproduk .diskonproduk {
+    font-size: 13px;
+    overflow: hidden;
+    color: #bdc3c7;
+    font-weight: 100;
+}
+
+.kartuproduk .diskonproduk .diskonpersen {
+    font-size: 11px;
+    overflow: hidden;
+    color: red;
+    font-weight: 200;
+    display: inline;
+}
+
+.kartuproduk .stokproduk {
+    font-size: 14px;
+}
+
+.kartuproduk .stokterjual {
+    font-size: 12px;
+    color: gray;
+}
+
+
+.productdisc .discpercent {
+    font-size: 13px;
+    overflow: hidden;
+    color: indianred;
+    font-weight: 500;
+    display: inline;
+}
+
+.productdisc {
+    font-size: 13px;
+    overflow: hidden;
+    color: grey;
+    font-weight: 500;
+}
+
+.productprice {
+    font-size: 30px;
+    overflow: hidden;
+    color: indianred;
+    font-weight: 500;
+}
+
+.pallete-detail-product {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI';
+}
+
+.img-detail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+.productname {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.productinfo {
+    color: gray;
+}
+
+.btn-proccess {
+    width: 100%;
+}
+
+.btn-tambah {
+    border-radius: 0px;
+    background-color: #D71149;
+    border: solid 2px #D71149;
+    color: azure;
+    font-family: 'source-sans-pro-bold';
+}
+
+.btn-beli {
+    border-radius: 0px;
+    background-color: azure;
+    border: solid 2px #D71149;
+    color: #D71149;
+    font-family: 'source-sans-pro-bold';
+}
+
+.footer {
+    line-height: 200px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color: white;
+    bottom: 0;
+    position: relative;
+    left: 0;
+    background-color: #D71149;
+}
+
+.btn-cekout {
+    background-color: #D71149;
+    color: azure;
+    border-radius: 0px;
+    width: 100%;
+
+}
