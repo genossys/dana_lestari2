@@ -8,7 +8,7 @@
             Form Deposito
         </p>
 
-        <div class="row">
+        <div class="row ml-1 mr-1">
             <div class="col-md-6">
                 <form action="/ajukandeposito" method="post">
                     @csrf

@@ -8,7 +8,7 @@
             Form Kredit
         </p>
 
-        <div class="row">
+        <div class="ml-1 mr-1 row">
             <div class="col-md-6">
 
                 <form action="/ajukankredit" method="post">
@@ -211,11 +211,10 @@
 @endsection
 
 @section('css')
-<link rel="stylesheet" href="{{ asset('/adminlte/css/adminlte.min.css')}}">
+
 @endsection
 
 @section('script')
-<script src="{{asset ('/adminlte/js/adminlte.js')}}"></script>
 
 <script>
     $('.expandViews').click(function() {
