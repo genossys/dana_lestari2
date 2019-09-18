@@ -57,3 +57,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
 Route::get('/kreditSukses', function () {
     return view('umum.kreditSukses');
 });
+
+Route::get('/-cache', function() {
+    Artisan::call('cache:clear');
+    return "Cache is cleared";
+});
