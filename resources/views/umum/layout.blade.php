@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ asset('/css/genosstyle.css') }}"  />
     <link rel="stylesheet" href="{{ asset('/adminlte/css/adminlte.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('/css/sweetalert/sweetalert2.min.css')}}">
 
 
     @yield('css')
@@ -129,7 +130,8 @@
             }
         });
     </script>
-
+<script src="{{ asset('js/sweetalert/sweetalert.min.js') }}"></script>
+    @include('sweet::alert')
     @yield('script')
 </body>
 

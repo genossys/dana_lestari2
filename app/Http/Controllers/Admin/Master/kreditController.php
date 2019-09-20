@@ -29,23 +29,29 @@ class kreditController extends Controller
 
     public function add(Request $r)
     {
-        try {
-            //code...
-            $kredit = new kreditModel();
-            $kredit->nama = $r->nama;
-            $kredit->telp = $r->telp;
-            $kredit->email = $r->email;
-            $kredit->domisili = $r->domisili;
-            $kredit->pekerjaan = $r->pekerjaan;
-            $kredit->penghasilan = $r->penghasilan;
-            $kredit->jaminan = $r->jaminan;
-            $kredit->pinjaman = $r->pinjaman;
-            $kredit->confirmed = '0';
-            $kredit->save();
-            return redirect('/callbackkredit');
-        } catch (\Exception $e) {
-            $exData = explode('(', $e->getMessage());
-            return redirect()->back();
+        if ($r->pinjaman < 100000000) {
+            # code...
+            Alert::error('Oops', 'Maaf, Jumlah Pinjaman Anda Kurang dari Jumlah Minimal Pinjaman');
+            return redirect()->back()->withInput();
+        } else {
+            try {
+                //code...
+                $kredit = new kreditModel();
+                $kredit->nama = $r->nama;
+                $kredit->telp = $r->telp;
+                $kredit->email = $r->email;
+                $kredit->domisili = $r->domisili;
+                $kredit->pekerjaan = $r->pekerjaan;
+                $kredit->penghasilan = $r->penghasilan;
+                $kredit->jaminan = $r->jaminan;
+                $kredit->pinjaman = $r->pinjaman;
+                $kredit->confirmed = '0';
+                $kredit->save();
+                return redirect('/callbackkredit');
+            } catch (\Exception $e) {
+                $exData = explode('(', $e->getMessage());
+                return redirect()->back()->withInput();
+            }
         }
     }
 
@@ -59,18 +65,14 @@ class kreditController extends Controller
         return DataTables::of($kredit)
             ->addIndexColumn()
             ->addColumn('action', function ($kredit) {
+                $nohp = $kredit->telp;
+                $text = 'Pengajuan Kredit Atas Nama ' . $kredit->nama . ' Telah Kami Konfirmasi dan Akan Segera kami Tindak Lanjuti. Terima Kasih Telah Mengajukan Kredit di BPR LESTARI JATENG';
                 return '<a class="btn-sm btn-success" id="btn-edit" href="/admin/kredit/confirm?id=' . $kredit->id . '">Konfirmasi</a>
-                 <a class="btn-sm btn-success" data-toggle="tooltip" title="Hapus Data" id="btn-delete" href="#">Cetak Form</a>
+                 <a class="btn-sm btn-success" id="btn-detail" target="_blank" href="https://api.whatsapp.com/send?phone=' . $nohp . '&text=' . $text . '">Kirim Whatsapp</a>
                  ';
             })
             ->editColumn('pinjaman', function ($kredit) {
-                if ($kredit->pinjaman > 5000000000) {
-                    return 'Di Atas 5 Milyar';
-                }
                 return formatuang($kredit->pinjaman);
-            })
-            ->editColumn('penghasilan', function ($kredit) {
-                return formatuang($kredit->penghasilan);
             })
             ->rawColumns(['action'])
             ->make(true);

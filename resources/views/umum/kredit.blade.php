@@ -77,7 +77,7 @@
 
                     <p class="font-weight-bold">Syarat dan ketentuan <span class="text-danger">*</span></p>
                     <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" name="cek" required>
                         <label class="form-check-label" for="exampleCheck1">Setuju dengan syarat dan ketentuan</label>
                     </div>
                     <p class="small text-justify">Dengan mengisi form ini, Saya menyetujui Syarat dan Ketentuan dan bersedia untuk dihubungi oleh BPR Lestari Jateng. Saya memberi kuasa kepada BPR Lestari Jateng untuk memeriksa informasi yang Saya berikan dan menghubungi sumber informasi yang layak seperti SLIK, biro kredit atau sejenisnya.</p>

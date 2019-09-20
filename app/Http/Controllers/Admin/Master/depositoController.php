@@ -37,7 +37,7 @@ class depositoController extends Controller
     }
     public function Sukses()
     {
-        return view('umum.kreditSukses')->with(['data' => 'Deposito']);
+        return view('umum.depositoSukses')->with(['data' => 'Deposito']);
     }
     public function getData()
     {
