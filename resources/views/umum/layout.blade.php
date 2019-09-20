@@ -104,8 +104,8 @@
                     <a href="http://instagram.com/bpr_lestarijateng/" class="text-light mr-2" style="font-size: 30px"><i class="fab fa-instagram" aria-hidden="true"></i></a>
                 </div>
 
-                <div class="col-sm-4">
-                    <img class="pt-4" src="{{asset('images/ojk.png')}}" alt="{{asset('images/ojk.png')}}">
+                <div class="col-sm-4 pt-2">
+                    <img class="pt-5" src="{{asset('images/diawasiOjk.png')}}" alt="{{asset('images/ojk.png')}}">
                 </div>
             </div>
         </div>
