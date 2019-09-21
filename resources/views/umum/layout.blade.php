@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Dana Lestari</title>
+    <title>BPR Lestari Jateng</title>
 
+    <!-- LOGO -->
+    <link rel="icon" type="image/x-icon" href="{{asset('images/bprTitleLogo.ico')}}" />
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap" rel="stylesheet">
