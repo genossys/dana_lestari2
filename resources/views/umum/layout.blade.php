@@ -91,7 +91,7 @@
                                 <i class="fa fa-envelope text-light mr-2" aria-hidden="true"></i>
                             </td>
                             <td>
-                                <p class="text-light"> bprlestarijateng@gmail.com</p>
+                                <p class="text-light"> lestarijtg@gmail.com</p>
                             </td>
                         </tr>
 
