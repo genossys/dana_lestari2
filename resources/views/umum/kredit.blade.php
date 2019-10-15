@@ -203,7 +203,7 @@
                 <p class="formbold mt-5">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
-                <a href="tel:+62271710003"><img src="{{asset('images/tanya lestari.png')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
+                <a href="tel:+62271710033"><img src="{{asset('images/tanya lestari.webp')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
             </div>
         </div>
     </div>

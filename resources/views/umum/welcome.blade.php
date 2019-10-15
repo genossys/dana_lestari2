@@ -39,7 +39,7 @@
     <div class="text-right">
         <div class="row">
             <div class="gambarMultiguna col-md-6 text-center">
-                <img class="gambarproduk w-100" src="{{asset('/images/kreditmultiguna.png')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
+                <img class="gambarproduk w-100" src="{{asset('/images/kreditmultiguna.webp')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
             </div>
 
             <div class="textMultiguna col-md-6">
@@ -72,7 +72,7 @@
             </div>
 
             <div class="gambarModalKerja col-md-6 text-center">
-                <img class="gambarproduk w-100" src="{{asset('/images/kreditmodalkerja.png')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
+                <img class="gambarproduk w-100" src="{{asset('/images/kreditmodalkerja.webp')}}" alt="{{asset('/images/kreditmultiguna.png')}}">
             </div>
 
         </div>
