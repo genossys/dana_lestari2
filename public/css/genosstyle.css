@@ -31,7 +31,7 @@ body {
 }
 
 .multiple-items .slide1 {
-    background-image: url("../images/slide1.jpg");
+    background-image: url("../images/slide1.webp");
     background-size: contain;
     background-repeat: no-repeat;
     height: 800px;
@@ -39,7 +39,7 @@ body {
 }
 
 .multiple-items .slide2 {
-    background-image: url("../images/slide2.jpg");
+    background-image: url("../images/slide2.webp");
     background-size: contain;
     background-repeat: no-repeat;
     height: 800px;
@@ -254,12 +254,12 @@ body {
 /* BERHASIL */
 .cardBerhasilKredit {
     height: 451px;
-    background-image: url("../images/suksesKredit.jpg");
+    background-image: url("../images/suksesKredit.webp");
 }
 
 .cardBerhasilDeposito {
     height: 451px;
-    background-image: url("../images/suksesDeposito.jpg");
+    background-image: url("../images/suksesDeposito.webp");
 }
 
 .animIn {
@@ -384,7 +384,7 @@ body {
     }
 
     .multiple-items .slide1 {
-        background-image: url("../images/slide1.jpg");
+        background-image: url("../images/slide1.webp");
         background-size: contain;
         background-repeat: no-repeat;
         height: 300px;
@@ -392,7 +392,7 @@ body {
     }
 
     .multiple-items .slide2 {
-        background-image: url("../images/slide2.jpg");
+        background-image: url("../images/slide2.webp");
         background-size: contain;
         background-repeat: no-repeat;
         height: 300px;

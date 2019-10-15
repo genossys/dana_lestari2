@@ -42,7 +42,7 @@
                     <div class="butuhBantuan">
                         <p class="font-weight-bold mt-5 mb-0">Syarat dan ketentuan <span class="text-danger">*</span></p>
 
-                        <p class="small text-justify">1. Program ini berlaku bagi seluruh masyarakat WNI dan WNA yang bertempat tinggal di sekitar JATENG dan melakukan penempatan deposito melalui aplikasi online danalestari.com</p>
+                        <p class="small text-justify">1. Program ini berlaku bagi seluruh masyarakat WNI dan WNA yang bertempat tinggal di seluruh INDONESIA dan melakukan penempatan deposito melalui aplikasi online</p>
                         <p class="small text-justify">2. Program ini ditujukan hanya untuk transaksi pembukaan rekening deposito dengan pilihan jangka waktu sesuai dengan kebutuhan (1, 3, 6 atau 12 bulan)</p>
                         <p class="small text-justify">3. Minimum penempatan deposito mulai dari Rp 10.000.000,-</p>
                         <p class="small text-justify">4. Suku bunga deposito adalah LPS Bank Perkreditan Rakyat yang berlaku saat penempatan deposito</p>
@@ -63,7 +63,7 @@
                 <p class="formbold">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
-                <a href="tel:+62271710003"><img src="{{asset('images/tanya lestari.png')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
+                <a href="tel:+62271710033"><img src="{{asset('images/tanya lestari.webp')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
             </div>
         </div>
 

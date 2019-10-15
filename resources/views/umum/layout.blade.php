@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>BPR Lestari Jateng</title>
+    <title>Kredit Tepat BPR Lestari Jateng</title>
 
     <!-- LOGO -->
     <link rel="icon" type="image/x-icon" href="{{asset('images/bprTitleLogo.ico')}}" />
@@ -34,7 +34,7 @@
 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #09839B;">
             <a class="navbar-brand" href="/">
-                <img src="/images/logoputih.png" height="30px" class="d-inline-block align-top" alt="/images/logoputih.png">
+                <img src="/images/logoputih.webp" height="30px" class="d-inline-block align-top" alt="/images/logoputih.png">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -60,7 +60,7 @@
     @yield('content')
 
     <!-- chat wa -->
-    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3 floatButton" src="{{asset('images/logowa.png')}}" alt="{{asset('images/logowa.png')}}"></a>
+    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3 floatButton" src="{{asset('images/logowa.webp')}}" alt="{{asset('images/logowa.webp')}}"></a>
     <div style="clear: both;"></div>
     <!-- produk -->
     <div class="footerLestari">
@@ -108,7 +108,7 @@
                 </div>
 
                 <div class="col-sm-4 pt-2">
-                    <img class="pt-5" src="{{asset('images/diawasiOjk.png')}}" alt="{{asset('images/ojk.png')}}">
+                    <img class="pt-5" src="{{asset('images/diawasiOjk.webp')}}" alt="{{asset('images/diawasiOjk.png')}}">
                 </div>
             </div>
         </div>
