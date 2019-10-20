@@ -109,7 +109,7 @@
 
                 <div class="col-sm-4 pt-2">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-8">
                             <img class="pt-5" src="{{asset('images/diawasiOjk.webp')}}" alt="{{asset('images/diawasiOjk.webp')}}">
                         </div>
 
@@ -117,7 +117,7 @@
                             <img class="pt-5" src="{{asset('images/bpr.webp')}}" alt="{{asset('images/bpr.webp')}}">
                         </div>
 
-                        <div class="col-sm-4">
+                        <div class="col-sm-8">
                             <img class="pt-5" src="{{asset('images/pls.webp')}}" alt="{{asset('images/pls.webp')}}">
                         </div>
 
