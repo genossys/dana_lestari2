@@ -111,14 +111,12 @@
                     <div class="row">
                         <div class="col-sm-8">
                             <img class="pt-5" src="{{asset('images/diawasiOjk.webp')}}" alt="{{asset('images/diawasiOjk.webp')}}">
+                            <img class="pt-5" src="{{asset('images/pls.webp')}}" alt="{{asset('images/pls.webp')}}">
+
                         </div>
 
                         <div class="col-sm-4">
                             <img class="pt-5" src="{{asset('images/bpr.webp')}}" alt="{{asset('images/bpr.webp')}}">
-                        </div>
-
-                        <div class="col-sm-8">
-                            <img class="pt-5" src="{{asset('images/pls.webp')}}" alt="{{asset('images/pls.webp')}}">
                         </div>
 
                     </div>
