@@ -17,9 +17,9 @@
 
     <!-- Font Awesome -->
 
-    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css') }}"  />
+    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css') }}" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ asset('/css/genosstyle.css') }}"  />
+    <link rel="stylesheet" href="{{ asset('/css/genosstyle.css') }}" />
     <link rel="stylesheet" href="{{ asset('/adminlte/css/adminlte.min.css')}}">
     <link rel="stylesheet" href="{{ asset('/css/sweetalert/sweetalert2.min.css')}}">
 
@@ -34,7 +34,7 @@
 
         <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #09839B;">
             <a class="navbar-brand" href="/">
-                <img src="/images/logoputih.webp" height="30px" class="d-inline-block align-top" alt="/images/logoputih.png">
+                <img src="/images/logoputih.webp" height="30px" class="d-inline-block align-top" alt="/images/logoputih.webp">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -108,7 +108,20 @@
                 </div>
 
                 <div class="col-sm-4 pt-2">
-                    <img class="pt-5" src="{{asset('images/diawasiOjk.webp')}}" alt="{{asset('images/diawasiOjk.png')}}">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img class="pt-5" src="{{asset('images/diawasiOjk.webp')}}" alt="{{asset('images/diawasiOjk.webp')}}">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img class="pt-5" src="{{asset('images/bpr.webp')}}" alt="{{asset('images/bpr.webp')}}">
+                        </div>
+
+                        <div class="col-sm-4">
+                            <img class="pt-5" src="{{asset('images/pls.webp')}}" alt="{{asset('images/pls.webp')}}">
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -132,7 +145,7 @@
             }
         });
     </script>
-<script src="{{ asset('js/sweetalert/sweetalert.min.js') }}"></script>
+    <script src="{{ asset('js/sweetalert/sweetalert.min.js') }}"></script>
     @include('sweet::alert')
     @yield('script')
 </body>

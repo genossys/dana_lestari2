@@ -44,7 +44,7 @@
 
                         <p class="small text-justify">1. Program ini berlaku bagi seluruh masyarakat WNI dan WNA yang bertempat tinggal di seluruh INDONESIA dan melakukan penempatan deposito melalui aplikasi online</p>
                         <p class="small text-justify">2. Program ini ditujukan hanya untuk transaksi pembukaan rekening deposito dengan pilihan jangka waktu sesuai dengan kebutuhan (1, 3, 6 atau 12 bulan)</p>
-                        <p class="small text-justify">3. Minimum penempatan deposito mulai dari Rp 10.000.000,-</p>
+                        <p class="small text-justify">3. Minimum penempatan deposito mulai dari Rp 8.000.000,-</p>
                         <p class="small text-justify">4. Suku bunga deposito adalah LPS Bank Perkreditan Rakyat yang berlaku saat penempatan deposito</p>
                         <p class="small text-justify">5. Dalam hal terdapat perubahan suku bunga LPS Bank Perkreditan Rakyat maka akan secara tertulis dikirimkan account statement setiap tanggal jatuh tempo bilyet deposito</p>
                         <p class="small text-justify">6. Syarat dan ketentuan umum ini merupakan satu kesatuan yang tidak terpisahkan dari syarat dan ketentuan umum rekening dan fasilitas atau layanan perbankan PT BPR Lestari Jateng</p>
@@ -63,7 +63,7 @@
                 <p class="formbold">Butuh Bantuan?</p>
                 <p>Kami akan sangat senang bila bisa membantu anda. Hubungi kami:</p>
 
-                <a href="tel:+62271710033"><img src="{{asset('images/tanya lestari.webp')}}" alt="{{asset('images/tanya lestari.png')}}"></a>
+                <a href="tel:+62271710033"><img src="{{asset('images/tanya lestari.webp')}}" alt="{{asset('images/tanya lestari.webp')}}"></a>
             </div>
         </div>
 
