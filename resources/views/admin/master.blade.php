@@ -106,7 +106,18 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                
+                                <li class="nav-item ">
+                                    <a href="{{route ('reportkredit')}}" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>Pengajuan Kredit</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item ">
+                                    <a href="{{route ('reportdeposito')}}" class="nav-link">
+                                        <i class="fa fa-circle-o nav-icon"></i>
+                                        <p>Pengajuan Deposito</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
 
