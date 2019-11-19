@@ -57,7 +57,7 @@
                             <td>{{$item->pekerjaan}}</td>
                             <td class="text-right">{{formatuang($item->penghasilan)}}</td>
                             <td>{{$item->jaminan}}</td>
-                            <td class="text-right">{{formatuang($item->pinjaman)}}</td>
+                            <td class="text-right">{{$item->pinjaman}}</td>
                         </tr>
                     @endforeach
                 </tbody>
