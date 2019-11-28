@@ -60,7 +60,7 @@
     @yield('content')
 
     <!-- chat wa -->
-    <a href="https://wa.me/6281226841406" target='_blank'><img class="mb-3 mr-3 floatButton" src="{{asset('images/logowa.webp')}}" alt="{{asset('images/logowa.webp')}}"></a>
+    <a href="https://wa.me/6287787025766" target='_blank'><img class="mb-3 mr-3 floatButton" src="{{asset('images/logowa.webp')}}" alt="{{asset('images/logowa.webp')}}"></a>
     <div style="clear: both;"></div>
     <!-- produk -->
     <div class="footerLestari">
