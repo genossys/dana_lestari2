@@ -73,7 +73,7 @@ $(document).ready(function () {
         autowidth: true,
         serverSide: true,
         processing: false,
-        ajax: '/admin/kredit/view',
+        ajax: '/admin/deposito/view',
         columns: [
             { data: 'DT_RowIndex', name: 'DT_RowIndex', searchable: false, orderable: false},
             { data: 'nama', name: 'nama' },
