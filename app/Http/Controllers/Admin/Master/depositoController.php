@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin\Master;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Master\depositoModel;
+use Yajra\DataTables\DataTables;
+use Alert;
 
 class depositoController extends Controller
 {
