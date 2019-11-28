@@ -52,6 +52,18 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
         Route::get('/view', 'Admin\Master\depositoController@getData');
         Route::get('/confirm', 'Admin\Master\depositoController@confirm');
     });
+
+    Route::group(['prefix' => 'laporankredit'], function() {
+        Route::get('/', 'Admin\Laporan\LaporanKredit@index')->name('reportkredit');
+        Route::get('/view', 'Admin\Laporan\LaporanKredit@search');
+        Route::get('/print', 'Admin\Laporan\LaporanKredit@print');
+    });
+
+    Route::group(['prefix' => 'laporandeposito'], function() {
+        Route::get('/', 'Admin\Laporan\LaporanDeposito@index')->name('reportdeposito');
+        Route::get('/view', 'Admin\Laporan\LaporanDeposito@search');
+        Route::get('/print', 'Admin\Laporan\LaporanDeposito@print');
+    });
 });
 
 Route::get('/kreditSukses', function () {

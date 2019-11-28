@@ -26,7 +26,7 @@
                             <i class="fa fa-envelope mr-2 formpenting" aria-hidden="true"></i>
                         </td>
                         <td>
-                            <p class="formpenting"> danalestari@gmail.com</p>
+                            <p class="formpenting"> lestarijtg@gmail.com</p>
                         </td>
                     </tr>
                 </table>

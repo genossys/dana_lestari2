@@ -24,7 +24,7 @@ function city($token)
 {
     $curl = curl_init();
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://x.rajaapi.com/MeP7c5ne" . $token . "/m/wilayah/kabupaten?idpropinsi=33",
+        CURLOPT_URL => "https://x.rajaapi.com/MeP7c5ne" . $token . "/m/wilayah/provinsi",
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
